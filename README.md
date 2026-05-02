@@ -199,28 +199,28 @@ Tests include:
 
 ## Setup Instructions
 
-1. Clone Repository:
+### 1. Clone Repository:
 
    git clone https://github.com/chris-chabrier/DATA-6545-Final-Project-Telco-Churn.git
    
    cd DATA-6545-Final-Project-Telco-Churn
 
-3. Create Virtual Environment:
+### 2. Create Virtual Environment:
 
    python -m venv venv
    
    source venv/bin/activate
 
-5. Install Dependencies:
+### 3. Install Dependencies:
 
    pip install -r requirements.txt
 
-6. Run API:
+### 4. Run API:
 
    python app.py
 
    (API runs at: http://127.0.0.1:5000)
 
-7. Run Tests:
+### 5. Run Tests:
 
    python test_api.py
